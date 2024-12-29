@@ -1,0 +1,21 @@
+﻿
+.svr-brand {
+    font-size: 2.2rem; /* Adjust the size as needed */
+    font-weight: bold;
+    margin-left: 15px; /* Adds space to the left to shift the name to the right */
+    letter-spacing: 1px; /* Adds spacing between the letters */
+    text-transform: uppercase; /* Makes the text uppercase for more impact */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the text */
+}
+
+/* Ensure the company name stays large and centered on mobile */
+@media (max-width: 991px) {
+    .svr-brand {
+        font-size: 2rem; /* Adjust for smaller screens */
+        margin-left: 10px; /* Slightly smaller margin on mobile */
+    }
+}
+.navbar-nav .nav-link {
+    text-transform: none; /* Removes any forced text transformation */
+    text-transform: capitalize; /* Optional: Capitalizes the first letter of each word */
+}
