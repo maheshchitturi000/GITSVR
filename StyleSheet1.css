@@ -289,7 +289,7 @@
 .video {
     position: relative;
     padding: 15rem 0 12rem 0;
-    background: url(../img/AboutUS.jpg?timestamp=<timestamp>) center center no-repeat;
+    background: url(AboutUS.jpg?timestamp=<timestamp>) center center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
