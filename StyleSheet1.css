@@ -619,7 +619,7 @@
 }
 
     .profile-card .header {
-        background: url('img/Profilebgmg.jpg') no-repeat center center !important; /* Ensure the image URL is correct */
+        background: url('Profilebgmg.jpg') no-repeat center center !important; /* Ensure the image URL is correct */
         background-size: cover !important; /* Ensure the image covers the entire area */
         padding: 40px 20px;
         position: relative;
